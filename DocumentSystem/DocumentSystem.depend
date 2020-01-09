@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1578207322 source:d:\杂项\workspace\documentsystem\btree.c
+	"header\BTree.h"
+	<stdio.h>
+	<stdlib.h>
+
+1578493380 d:\杂项\workspace\documentsystem\header\btree.h
+	<stdio.h>
+
+1578496653 source:d:\杂项\workspace\documentsystem\document.c
+	<stdio.h>
+	<stdlib.h>
+	"header/BTree.h"
+	"header/Document.h"
+	<time.h>
+	<string.h>
+	<stdarg.h>
+
+1578496654 d:\杂项\workspace\documentsystem\header\document.h
+	<time.h>
+
+1578495777 source:d:\杂项\workspace\documentsystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header\BTree.h"
+	"header/Document.h"
+	<conio.h>
+	<string.h>
+	<time.h>
+
