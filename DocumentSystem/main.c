@@ -15,8 +15,12 @@ int main()
     if(load(&t,&rdrt,tb))
         printf("¼ÓÔØ³É¹¦\n");
     menu();
-    printf("ORDER>>>>> ");
-    scanf("%d",&order);
+    printf("\nORDER>>>>> ");
+    while(!scanf("%d",&order)){
+        printf("Illegal command.\n");
+        flush();
+        printf("\nORDER>>>>> ");
+    }
     while(order){
         fflush(stdin);
         switch(order){
@@ -246,8 +250,12 @@ int main()
 
         }
         fflush(stdin);
-        printf("ORDER>>>>> ");
-        scanf("%d",&order);
+        printf("\nORDER>>>>> ");
+        while(!scanf("%d",&order)){
+            printf("Illegal command.\n");
+            flush();
+            printf("\nORDER>>>>> ");
+        }
     }
 }
 
